@@ -38,6 +38,8 @@ This policy setting determines when users are warned that their passwords are ab
 -  Configure user passwords to expire periodically. Users need warning that their password is going to expire, or they might  get locked out of the system.
 -  Set **Interactive logon: Prompt user to change password before expiration** to five days. When their password expiration date is five or fewer days away, users will see a dialog box each time that they log on to the domain.
 -  Don't set the value to zero, which displays the password expiration warning every time the user logs on.
+"needs to be updated. 
+As per my testing the user will not get password expiry notification on every logon if we set the value to 0. User will get notification on last day of password expiry"
 
 ### Location
 
